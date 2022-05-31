@@ -1,6 +1,7 @@
 {
 
     "baseUrl":"https://fakerestapi.azurewebsites.net",
-    "$schema": "https://on.cypress.io/cypress.schema.json"
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "video": false
 
 }
