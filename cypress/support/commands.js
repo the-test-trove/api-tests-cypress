@@ -58,12 +58,76 @@ Cypress.Commands.add('GETBYID', (baseURL, activities, id) =>
                 method: "GET",
                 url : baseURL +"/api/v1/"+ activities+"/"+id,
                 failOnStatusCode: false,
-                //Authtication if required
+                //Authtication information can be specified here
                 // auth:
                 // {
                 //     username : userName,
                 //     password: "password"
                 // },
+                headers:
+                {
+                    'Content-Type': 'application/json;charset=UTF-8'
+                },
+
+            })
+
+});
+
+
+
+Cypress.Commands.add('POST', (baseURL,activities) =>
+{
+    cy.get('@inputRequest').then(inputdata =>{
+        
+        cy.request(
+            {
+                method: "POST",
+                url : baseURL+"/api/v1/"+ activities, 
+                failOnStatusCode: false,
+                headers:
+                {
+                    'Content-Type': 'application/json;charset=UTF-8'
+                },
+                body: inputdata
+
+            })
+    })
+
+});
+
+
+
+Cypress.Commands.add('PUT', (baseURL,activities,id) =>
+{
+    cy.get('@inputRequest').then(inputdata =>{
+        
+        cy.request(
+            {
+                method: "PUT",
+                url : baseURL+"/api/v1/"+ activities+"/"+ id, 
+                failOnStatusCode: false,
+                headers:
+                {
+                    'Content-Type': 'application/json;charset=UTF-8'
+                },
+                body: inputdata
+
+            })
+    })
+
+});
+
+
+
+
+Cypress.Commands.add('DELETE', (baseURL, activities, id) =>
+{
+   
+        cy.request(
+            {
+                method: "DELETE",
+                url : baseURL +"/api/v1/"+ activities+"/"+id,
+                failOnStatusCode: false,
                 headers:
                 {
                     'Content-Type': 'application/json;charset=UTF-8'
