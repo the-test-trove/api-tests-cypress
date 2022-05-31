@@ -1,0 +1,14 @@
+{
+  "name": "api-testingwith-cypress",
+  "version": "1.0.0",
+  "description": "\"The project to showcase how we can perform api testing with cypress\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "veerkumar patil",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
