@@ -15,7 +15,7 @@ jobs:
       - name: npx cypress run --env allure=true
         uses: cypress-io/github-action@v2
         with:
-          start: npm start
+          start: npx cypress run --env allure=true
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
