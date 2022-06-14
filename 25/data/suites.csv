@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 14 13:38:38 GMT 2022","Tue Jun 14 13:38:38 GMT 2022","376","","Delete API Test","","","","Delete Activity",""
+"passed","Tue Jun 14 13:38:26 GMT 2022","Tue Jun 14 13:38:27 GMT 2022","879","","POST API Test","","","","Create Activity",""
+"passed","Tue Jun 14 13:38:42 GMT 2022","Tue Jun 14 13:38:42 GMT 2022","224","","GET API Test","","","","Get All Activity Details",""
+"passed","Tue Jun 14 13:38:42 GMT 2022","Tue Jun 14 13:38:42 GMT 2022","201","","GET API Test","","","","Get Activity Details By ID",""
+"passed","Tue Jun 14 13:38:27 GMT 2022","Tue Jun 14 13:38:27 GMT 2022","205","","POST API Test","","","","Create Activity failed",""
+"passed","Tue Jun 14 13:38:46 GMT 2022","Tue Jun 14 13:38:47 GMT 2022","338","","PUT API Tests","","","","Update Activity",""
