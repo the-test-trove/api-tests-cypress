@@ -4,11 +4,17 @@
   "description": "\"The project to showcase how we can perform api testing with cypress\"",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/cypress run"
+    "test": "node_modules/.bin/cypress run",
+    "cy:run": "node_modules/.bin/cypress run",
+    "cy:parallel": "cypress-parallel -s cy:run -t 2"
   },
   "author": "veerkumar patil",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
     "cypress": "^9.7.0"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.9.0"
   }
 }
