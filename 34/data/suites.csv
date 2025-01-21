@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","162","Update Activity","PUT API Tests","Tue Jan 21 12:51:09 GMT 2025","passed","Tue Jan 21 12:51:09 GMT 2025","","","",""
+"","164","Get All Activity Details","GET API Test","Tue Jan 21 12:51:06 GMT 2025","passed","Tue Jan 21 12:51:06 GMT 2025","","","",""
+"","120","Create Activity failed","POST API Test","Tue Jan 21 12:51:07 GMT 2025","passed","Tue Jan 21 12:51:07 GMT 2025","","","",""
+"","574","Create Activity","POST API Test","Tue Jan 21 12:51:06 GMT 2025","passed","Tue Jan 21 12:51:07 GMT 2025","","","",""
+"","145","Delete Activity","Delete API Test","Tue Jan 21 12:51:10 GMT 2025","passed","Tue Jan 21 12:51:10 GMT 2025","","","",""
+"","163","Get Activity Details By ID","GET API Test","Tue Jan 21 12:51:06 GMT 2025","passed","Tue Jan 21 12:51:06 GMT 2025","","","",""
