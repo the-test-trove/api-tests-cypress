@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "\"The project to showcase how we can perform api testing with cypress\"",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node_modules/.bin/cypress run",
     "cy:run": "node_modules/.bin/cypress run",

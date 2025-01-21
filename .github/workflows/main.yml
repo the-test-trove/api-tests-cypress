@@ -7,17 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Install Packages
-        run:  npm install  
-      - name: npx cypress run --env allure=true
-        uses: cypress-io/github-action@v2
+        run:  npm install --force
+      - name: npx cypress run on Chrome
+        uses: cypress-io/github-action@v6
         with:
-          start: npx cypress run --env allure=true
+          start: npx cypress run --browser chrome 
       - name: Get Allure history
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         if: always()
         continue-on-error: true
         with:
