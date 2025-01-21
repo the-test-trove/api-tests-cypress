@@ -29,4 +29,4 @@ cypress/screenshots
 cypress/results
 mochawesome-report
 allure-report
-allure-resultsal
+allure-results
