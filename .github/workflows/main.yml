@@ -12,10 +12,10 @@ jobs:
       # and run all Cypress tests
       - name: Install Packages
         run:  npm install  
-      - name: npx cypress run --browser chrome
+      - name: npx cypress run on Chrome
         uses: cypress-io/github-action@v6
         with:
-          start: npx cypress run --env allure=true
+          start: npx cypress run --browser chrome 
       - name: Get Allure history
         uses: actions/checkout@v4
         if: always()
