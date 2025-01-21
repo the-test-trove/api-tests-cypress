@@ -11,8 +11,9 @@
   "author": "veerkumar patil",
   "license": "ISC",
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.26.5",
-    "cypress": "^9.7.0"
+    "cypress": "^14.0.0",
+    "allure-commandline": "^2.17.2",
+    "allure-cypress": "^3.0.9"
   },
   "dependencies": {
     "cypress-parallel": "^0.9.0"

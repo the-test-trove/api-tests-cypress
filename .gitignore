@@ -28,3 +28,5 @@ cypress/videos
 cypress/screenshots
 cypress/results
 mochawesome-report
+allure-report
+allure-results
